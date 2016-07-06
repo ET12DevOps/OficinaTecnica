@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A1172CF-0861-41CB-AFEB-7A0A428B0BF8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Titan</RootNamespace>
+    <AssemblyName>Titan</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Deposito\Consultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deposito\Consultar.Designer.cs">
+      <DependentUpon>Consultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deposito\Eliminar_Articulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deposito\Eliminar_Articulo.Designer.cs">
+      <DependentUpon>Eliminar_Articulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deposito\Modificar_Articulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deposito\Modificar_Articulo.Designer.cs">
+      <DependentUpon>Modificar_Articulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deposito\Modificar_Retiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deposito\Modificar_Retiro.Designer.cs">
+      <DependentUpon>Modificar_Retiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deposito\Nuevo_Articulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deposito\Nuevo_Articulo.Designer.cs">
+      <DependentUpon>Nuevo_Articulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Deposito\Nuevo_Retiro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deposito\Nuevo_Retiro.Designer.cs">
+      <DependentUpon>Nuevo_Retiro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntDep-Proyecto-Nuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EntDep-Proyecto-Nuevo.Designer.cs">
+      <DependentUpon>EntDep-Proyecto-Nuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Principal.Designer.cs">
+      <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Deposito\Consultar.resx">
+      <DependentUpon>Consultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deposito\Eliminar_Articulo.resx">
+      <DependentUpon>Eliminar_Articulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deposito\Modificar_Articulo.resx">
+      <DependentUpon>Modificar_Articulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deposito\Modificar_Retiro.resx">
+      <DependentUpon>Modificar_Retiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deposito\Nuevo_Articulo.resx">
+      <DependentUpon>Nuevo_Articulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deposito\Nuevo_Retiro.resx">
+      <DependentUpon>Nuevo_Retiro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EntDep-Proyecto-Nuevo.resx">
+      <DependentUpon>EntDep-Proyecto-Nuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Principal.resx">
+      <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FotoTec12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FotoTec121.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

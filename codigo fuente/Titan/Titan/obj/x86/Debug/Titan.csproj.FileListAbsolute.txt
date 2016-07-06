@@ -1,0 +1,22 @@
+C:\Users\Administrador\Desktop\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Deposito.Nuevo_Articulo.resources
+C:\Users\Administrador\Desktop\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.EntDep_Proyecto_Nuevo.resources
+C:\Users\Administrador\Desktop\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Login.resources
+C:\Users\Administrador\Desktop\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Menu_Principal.resources
+C:\Users\Administrador\Desktop\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Properties.Resources.resources
+C:\Users\Administrador\Desktop\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.csproj.GenerateResource.Cache
+C:\Users\Administrador\Desktop\Diseño para Oficina Tecnica\Titan\Titan\bin\Debug\Titan.exe
+C:\Users\Administrador\Desktop\Diseño para Oficina Tecnica\Titan\Titan\bin\Debug\Titan.pdb
+C:\Users\Administrador\Desktop\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.exe
+C:\Users\Administrador\Desktop\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.pdb
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.exe
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.pdb
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\bin\Debug\Titan.exe
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\bin\Debug\Titan.pdb
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Deposito.Eliminar_Articulo.resources
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Deposito.Nuevo_Articulo.resources
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Deposito.Nuevo_Retiro.resources
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.EntDep_Proyecto_Nuevo.resources
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Login.resources
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Menu_Principal.resources
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Properties.Resources.resources
+D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.csproj.GenerateResource.Cache
