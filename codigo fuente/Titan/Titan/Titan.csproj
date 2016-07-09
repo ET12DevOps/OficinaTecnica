@@ -100,6 +100,24 @@
     <Compile Include="Menu_Principal.Designer.cs">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Oficina Tecnica\Nuevo_Alumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Nuevo_Alumno.Designer.cs">
+      <DependentUpon>Nuevo_Alumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Nuevo_Profesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Nuevo_Profesor.Designer.cs">
+      <DependentUpon>Nuevo_Profesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Nuevo_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Nuevo_Proveedor.Designer.cs">
+      <DependentUpon>Nuevo_Proveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Deposito\Consultar.resx">
@@ -128,6 +146,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Nuevo_Alumno.resx">
+      <DependentUpon>Nuevo_Alumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Nuevo_Profesor.resx">
+      <DependentUpon>Nuevo_Profesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Nuevo_Proveedor.resx">
+      <DependentUpon>Nuevo_Proveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
