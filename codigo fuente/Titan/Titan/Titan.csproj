@@ -52,34 +52,34 @@
     <Compile Include="Deposito\Consultar.Designer.cs">
       <DependentUpon>Consultar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Deposito\Eliminar_Articulo.cs">
+    <Compile Include="Deposito\Eliminar\Eliminar_Articulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Deposito\Eliminar_Articulo.Designer.cs">
+    <Compile Include="Deposito\Eliminar\Eliminar_Articulo.Designer.cs">
       <DependentUpon>Eliminar_Articulo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Deposito\Modificar_Articulo.cs">
+    <Compile Include="Deposito\Modificar\Modificar_Articulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Deposito\Modificar_Articulo.Designer.cs">
+    <Compile Include="Deposito\Modificar\Modificar_Articulo.Designer.cs">
       <DependentUpon>Modificar_Articulo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Deposito\Modificar_Retiro.cs">
+    <Compile Include="Deposito\Modificar\Modificar_Retiro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Deposito\Modificar_Retiro.Designer.cs">
+    <Compile Include="Deposito\Modificar\Modificar_Retiro.Designer.cs">
       <DependentUpon>Modificar_Retiro.cs</DependentUpon>
     </Compile>
-    <Compile Include="Deposito\Nuevo_Articulo.cs">
+    <Compile Include="Deposito\Nuevo\Nuevo_Articulo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Deposito\Nuevo_Articulo.Designer.cs">
+    <Compile Include="Deposito\Nuevo\Nuevo_Articulo.Designer.cs">
       <DependentUpon>Nuevo_Articulo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Deposito\Nuevo_Retiro.cs">
+    <Compile Include="Deposito\Nuevo\Nuevo_Retiro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Deposito\Nuevo_Retiro.Designer.cs">
+    <Compile Include="Deposito\Nuevo\Nuevo_Retiro.Designer.cs">
       <DependentUpon>Nuevo_Retiro.cs</DependentUpon>
     </Compile>
     <Compile Include="EntDep-Proyecto-Nuevo.cs">
@@ -100,22 +100,76 @@
     <Compile Include="Menu_Principal.Designer.cs">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Oficina Tecnica\Nuevo_Alumno.cs">
+    <Compile Include="Oficina Tecnica\Eliminar\Eliminar_Alumno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Oficina Tecnica\Nuevo_Alumno.Designer.cs">
+    <Compile Include="Oficina Tecnica\Eliminar\Eliminar_Alumno.Designer.cs">
+      <DependentUpon>Eliminar_Alumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Eliminar\Eliminar_Personal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Eliminar\Eliminar_Personal.Designer.cs">
+      <DependentUpon>Eliminar_Personal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Eliminar\Eliminar_Profesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Eliminar\Eliminar_Profesor.Designer.cs">
+      <DependentUpon>Eliminar_Profesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Eliminar\Eliminar_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Eliminar\Eliminar_Proveedor.Designer.cs">
+      <DependentUpon>Eliminar_Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Modificar\Modificar_Alumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Modificar\Modificar_Alumno.Designer.cs">
+      <DependentUpon>Modificar_Alumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Modificar\Modificar_Personal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Modificar\Modificar_Personal.Designer.cs">
+      <DependentUpon>Modificar_Personal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Modificar\Modificar_Profesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Modificar\Modificar_Profesor.Designer.cs">
+      <DependentUpon>Modificar_Profesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Modificar\Modificar_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Modificar\Modificar_Proveedor.Designer.cs">
+      <DependentUpon>Modificar_Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Nuevo\Nuevo_Alumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Nuevo\Nuevo_Alumno.Designer.cs">
       <DependentUpon>Nuevo_Alumno.cs</DependentUpon>
     </Compile>
-    <Compile Include="Oficina Tecnica\Nuevo_Profesor.cs">
+    <Compile Include="Oficina Tecnica\Nuevo\Nuevo_Personal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Oficina Tecnica\Nuevo_Profesor.Designer.cs">
+    <Compile Include="Oficina Tecnica\Nuevo\Nuevo_Personal.Designer.cs">
+      <DependentUpon>Nuevo_Personal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Nuevo\Nuevo_Profesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Nuevo\Nuevo_Profesor.Designer.cs">
       <DependentUpon>Nuevo_Profesor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Oficina Tecnica\Nuevo_Proveedor.cs">
+    <Compile Include="Oficina Tecnica\Nuevo\Nuevo_Proveedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Oficina Tecnica\Nuevo_Proveedor.Designer.cs">
+    <Compile Include="Oficina Tecnica\Nuevo\Nuevo_Proveedor.Designer.cs">
       <DependentUpon>Nuevo_Proveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -123,19 +177,19 @@
     <EmbeddedResource Include="Deposito\Consultar.resx">
       <DependentUpon>Consultar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Deposito\Eliminar_Articulo.resx">
+    <EmbeddedResource Include="Deposito\Eliminar\Eliminar_Articulo.resx">
       <DependentUpon>Eliminar_Articulo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Deposito\Modificar_Articulo.resx">
+    <EmbeddedResource Include="Deposito\Modificar\Modificar_Articulo.resx">
       <DependentUpon>Modificar_Articulo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Deposito\Modificar_Retiro.resx">
+    <EmbeddedResource Include="Deposito\Modificar\Modificar_Retiro.resx">
       <DependentUpon>Modificar_Retiro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Deposito\Nuevo_Articulo.resx">
+    <EmbeddedResource Include="Deposito\Nuevo\Nuevo_Articulo.resx">
       <DependentUpon>Nuevo_Articulo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Deposito\Nuevo_Retiro.resx">
+    <EmbeddedResource Include="Deposito\Nuevo\Nuevo_Retiro.resx">
       <DependentUpon>Nuevo_Retiro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EntDep-Proyecto-Nuevo.resx">
@@ -147,40 +201,61 @@
     <EmbeddedResource Include="Menu_Principal.resx">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Oficina Tecnica\Nuevo_Alumno.resx">
+    <EmbeddedResource Include="Oficina Tecnica\Eliminar\Eliminar_Alumno.resx">
+      <DependentUpon>Eliminar_Alumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Eliminar\Eliminar_Personal.resx">
+      <DependentUpon>Eliminar_Personal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Eliminar\Eliminar_Profesor.resx">
+      <DependentUpon>Eliminar_Profesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Eliminar\Eliminar_Proveedor.resx">
+      <DependentUpon>Eliminar_Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Modificar\Modificar_Alumno.resx">
+      <DependentUpon>Modificar_Alumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Modificar\Modificar_Personal.resx">
+      <DependentUpon>Modificar_Personal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Modificar\Modificar_Profesor.resx">
+      <DependentUpon>Modificar_Profesor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Modificar\Modificar_Proveedor.resx">
+      <DependentUpon>Modificar_Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Nuevo\Nuevo_Alumno.resx">
       <DependentUpon>Nuevo_Alumno.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Oficina Tecnica\Nuevo_Profesor.resx">
+    <EmbeddedResource Include="Oficina Tecnica\Nuevo\Nuevo_Personal.resx">
+      <DependentUpon>Nuevo_Personal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Nuevo\Nuevo_Profesor.resx">
       <DependentUpon>Nuevo_Profesor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Oficina Tecnica\Nuevo_Proveedor.resx">
+    <EmbeddedResource Include="Oficina Tecnica\Nuevo\Nuevo_Proveedor.resx">
       <DependentUpon>Nuevo_Proveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\FotoTec12.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\FotoTec121.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,16 +9,11 @@ using System.Windows.Forms;
 
 namespace Titan.Oficina_Tecnica
 {
-    public partial class Nuevo_Alumno : Form
+    public partial class Nuevo_Personal : Form
     {
-        public Nuevo_Alumno()
+        public Nuevo_Personal()
         {
             InitializeComponent();
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
         }
     }
 }
