@@ -71,8 +71,12 @@ namespace Titan
 
         private void articuloToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.panelMenuPrincipal.Controls.Clear();
             Nuevo_Articulo frmNuevoArticulo = new Nuevo_Articulo();
-            frmNuevoArticulo.Show();
+            //frmNuevoArticulo.Show();
+            this.panelMenuPrincipal.Controls.Add(frmNuevoArticulo.panel1);
+            this.Refresh();
+
         }
 
         private void retiroToolStripMenuItem1_Click(object sender, EventArgs e)
