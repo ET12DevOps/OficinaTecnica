@@ -54,6 +54,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
@@ -62,6 +63,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.textBox5);
@@ -74,7 +76,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(620, 53);
+            this.button1.Location = new System.Drawing.Point(619, 71);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 20);
             this.button1.TabIndex = 37;
@@ -277,7 +279,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(320, 53);
+            this.textBox5.Location = new System.Drawing.Point(319, 71);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(242, 20);
             this.textBox5.TabIndex = 36;
@@ -285,11 +287,20 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(146, 56);
+            this.label11.Location = new System.Drawing.Point(145, 74);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(78, 13);
             this.label11.TabIndex = 35;
             this.label11.Text = "Retiro Numero:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(252, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(372, 13);
+            this.label2.TabIndex = 38;
+            this.label2.Text = "Escriba el numero de retiro a modificar y llene los campos segun corresponda.";
             // 
             // Modificar_Retiro
             // 
@@ -337,5 +348,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

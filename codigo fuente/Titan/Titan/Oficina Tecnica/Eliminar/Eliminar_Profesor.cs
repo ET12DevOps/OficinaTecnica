@@ -15,5 +15,10 @@ namespace Titan.Oficina_Tecnica
         {
             InitializeComponent();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

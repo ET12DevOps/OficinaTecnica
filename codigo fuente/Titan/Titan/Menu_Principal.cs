@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Titan.Deposito;
+using Titan.Oficina_Tecnica;
+using Titan.Oficina_Tecnica.Modificar;
 
 namespace Titan
 {
@@ -101,6 +103,95 @@ namespace Titan
         {
             Consultar frmConsultar = new Consultar();
             frmConsultar.Show();
+        }
+
+        private void profesorToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Nuevo_Alumno frmNuevoAlumno = new Nuevo_Alumno();
+            frmNuevoAlumno.Show();
+        }
+
+        private void personalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Proximamente...");
+        }
+
+        private void alumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Nuevo_Profesor frmNuevoProfesor = new Nuevo_Profesor();
+            frmNuevoProfesor.Show();
+        }
+
+        private void proveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Nuevo_Proveedor frmNuevoProveedor = new Nuevo_Proveedor();
+            frmNuevoProveedor.Show();
+        }
+
+        private void alumnoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Eliminar_Alumno frmNuevoAlumno = new Eliminar_Alumno();
+            frmNuevoAlumno.Show();
+        }
+
+        private void personalToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Proximamente...");
+        }
+
+        private void profesorToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Eliminar_Profesor frmEliminarProfesor = new Eliminar_Profesor();
+            frmEliminarProfesor.Show();
+        }
+
+        private void proveedorToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Eliminar_Proveedor frmEliminarProveedor = new Eliminar_Proveedor();
+            frmEliminarProveedor.Show();
+        }
+
+        private void alumnoToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Modificar_Alumno frmModificarAlumno = new Modificar_Alumno();
+            frmModificarAlumno.Show();
+        }
+
+        private void personalToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Proximente...");
+        }
+
+        private void profesorToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Modificar_Profesor frmModificarProfesor = new Modificar_Profesor();
+            frmModificarProfesor.Show();
+        }
+
+        private void proveedorToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Modificar_Proveedor frmModificarProveedor = new Modificar_Proveedor();
+            frmModificarProveedor.Show();
+        }
+
+        private void buscarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Proximente...");
+        }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Proximente...");
+        }
+
+        private void configuraciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Proximamente...");
+        }
+
+        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

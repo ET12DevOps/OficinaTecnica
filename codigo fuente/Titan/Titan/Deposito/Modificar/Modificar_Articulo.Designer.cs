@@ -54,6 +54,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -68,6 +69,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.btnCancelar);
             this.groupBox1.Controls.Add(this.comboBox1);
@@ -120,9 +122,9 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(327, 147);
+            this.comboBox1.Location = new System.Drawing.Point(327, 164);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(233, 21);
+            this.comboBox1.Size = new System.Drawing.Size(235, 21);
             this.comboBox1.TabIndex = 33;
             // 
             // textBox7
@@ -285,6 +287,16 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "Codigo Fisico:";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(132, 30);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(598, 13);
+            this.label10.TabIndex = 36;
+            this.label10.Text = "Escriba el nombre del producto y/o codigo fisico. Seleccione el articulo correspo" +
+                "ndiente y luego llene los campos a modificar. ";
+            // 
             // Modificar_Articulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -328,5 +340,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label10;
     }
 }
