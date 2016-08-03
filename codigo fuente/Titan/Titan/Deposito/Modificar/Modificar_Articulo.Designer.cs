@@ -29,69 +29,69 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Modificar_Articulo));
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelModificarArticulo = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.btnModificar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.comboBoxArticulos = new System.Windows.Forms.ComboBox();
+            this.txtFechaIngreso = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtCodFisicoNuevo = new System.Windows.Forms.TextBox();
+            this.txtStockMinimo = new System.Windows.Forms.TextBox();
+            this.txtUnidad = new System.Windows.Forms.TextBox();
+            this.txtCantidad = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.txtProductoNuevo = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.calendario = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtProducto = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtCodFisico = new System.Windows.Forms.TextBox();
+            this.btnBuscarArticulo = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.panelModificarArticulo.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // panelModificarArticulo
             // 
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Location = new System.Drawing.Point(1, 1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(919, 519);
-            this.panel1.TabIndex = 0;
+            this.panelModificarArticulo.Controls.Add(this.groupBox1);
+            this.panelModificarArticulo.Location = new System.Drawing.Point(1, 1);
+            this.panelModificarArticulo.Name = "panelModificarArticulo";
+            this.panelModificarArticulo.Size = new System.Drawing.Size(919, 519);
+            this.panelModificarArticulo.TabIndex = 0;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.btnModificar);
             this.groupBox1.Controls.Add(this.btnCancelar);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.comboBoxArticulos);
+            this.groupBox1.Controls.Add(this.txtFechaIngreso);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox8);
-            this.groupBox1.Controls.Add(this.textBox9);
+            this.groupBox1.Controls.Add(this.txtCodFisicoNuevo);
+            this.groupBox1.Controls.Add(this.txtStockMinimo);
+            this.groupBox1.Controls.Add(this.txtUnidad);
+            this.groupBox1.Controls.Add(this.txtCantidad);
+            this.groupBox1.Controls.Add(this.txtDescripcion);
+            this.groupBox1.Controls.Add(this.txtProductoNuevo);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.calendario);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txtProducto);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.txtCodFisico);
+            this.groupBox1.Controls.Add(this.btnBuscarArticulo);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(11, 11);
             this.groupBox1.Name = "groupBox1";
@@ -100,14 +100,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Modificar Articulo";
             // 
-            // button2
+            // label10
             // 
-            this.button2.Location = new System.Drawing.Point(176, 431);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 26);
-            this.button2.TabIndex = 35;
-            this.button2.Text = "Modificar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(132, 30);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(598, 13);
+            this.label10.TabIndex = 36;
+            this.label10.Text = "Escriba el nombre del producto y/o codigo fisico. Seleccione el articulo correspo" +
+                "ndiente y luego llene los campos a modificar. ";
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(176, 431);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(86, 26);
+            this.btnModificar.TabIndex = 35;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
             // 
             // btnCancelar
             // 
@@ -119,20 +129,20 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // comboBox1
+            // comboBoxArticulos
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(327, 164);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(235, 21);
-            this.comboBox1.TabIndex = 33;
+            this.comboBoxArticulos.FormattingEnabled = true;
+            this.comboBoxArticulos.Location = new System.Drawing.Point(327, 164);
+            this.comboBoxArticulos.Name = "comboBoxArticulos";
+            this.comboBoxArticulos.Size = new System.Drawing.Size(235, 21);
+            this.comboBoxArticulos.TabIndex = 33;
             // 
-            // textBox7
+            // txtFechaIngreso
             // 
-            this.textBox7.Location = new System.Drawing.Point(327, 323);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(235, 20);
-            this.textBox7.TabIndex = 32;
+            this.txtFechaIngreso.Location = new System.Drawing.Point(327, 323);
+            this.txtFechaIngreso.Name = "txtFechaIngreso";
+            this.txtFechaIngreso.Size = new System.Drawing.Size(235, 20);
+            this.txtFechaIngreso.TabIndex = 32;
             // 
             // label9
             // 
@@ -152,47 +162,47 @@
             this.label7.TabIndex = 30;
             this.label7.Text = "Codigo Fisico:";
             // 
-            // textBox6
+            // txtCodFisicoNuevo
             // 
-            this.textBox6.Location = new System.Drawing.Point(327, 203);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(234, 20);
-            this.textBox6.TabIndex = 29;
+            this.txtCodFisicoNuevo.Location = new System.Drawing.Point(327, 203);
+            this.txtCodFisicoNuevo.Name = "txtCodFisicoNuevo";
+            this.txtCodFisicoNuevo.Size = new System.Drawing.Size(234, 20);
+            this.txtCodFisicoNuevo.TabIndex = 29;
             // 
-            // textBox5
+            // txtStockMinimo
             // 
-            this.textBox5.Location = new System.Drawing.Point(328, 347);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(234, 20);
-            this.textBox5.TabIndex = 28;
+            this.txtStockMinimo.Location = new System.Drawing.Point(328, 347);
+            this.txtStockMinimo.Name = "txtStockMinimo";
+            this.txtStockMinimo.Size = new System.Drawing.Size(234, 20);
+            this.txtStockMinimo.TabIndex = 28;
             // 
-            // textBox4
+            // txtUnidad
             // 
-            this.textBox4.Location = new System.Drawing.Point(327, 299);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(235, 20);
-            this.textBox4.TabIndex = 27;
+            this.txtUnidad.Location = new System.Drawing.Point(327, 299);
+            this.txtUnidad.Name = "txtUnidad";
+            this.txtUnidad.Size = new System.Drawing.Size(235, 20);
+            this.txtUnidad.TabIndex = 27;
             // 
-            // textBox3
+            // txtCantidad
             // 
-            this.textBox3.Location = new System.Drawing.Point(328, 275);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(234, 20);
-            this.textBox3.TabIndex = 26;
+            this.txtCantidad.Location = new System.Drawing.Point(328, 275);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(234, 20);
+            this.txtCantidad.TabIndex = 26;
             // 
-            // textBox8
+            // txtDescripcion
             // 
-            this.textBox8.Location = new System.Drawing.Point(328, 251);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(234, 20);
-            this.textBox8.TabIndex = 25;
+            this.txtDescripcion.Location = new System.Drawing.Point(328, 251);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(234, 20);
+            this.txtDescripcion.TabIndex = 25;
             // 
-            // textBox9
+            // txtProductoNuevo
             // 
-            this.textBox9.Location = new System.Drawing.Point(328, 227);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(234, 20);
-            this.textBox9.TabIndex = 24;
+            this.txtProductoNuevo.Location = new System.Drawing.Point(328, 227);
+            this.txtProductoNuevo.Name = "txtProductoNuevo";
+            this.txtProductoNuevo.Size = new System.Drawing.Size(234, 20);
+            this.txtProductoNuevo.TabIndex = 24;
             // 
             // label6
             // 
@@ -203,12 +213,12 @@
             this.label6.TabIndex = 23;
             this.label6.Text = "Stock Minimo:";
             // 
-            // dateTimePicker1
+            // calendario
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(580, 323);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(201, 20);
-            this.dateTimePicker1.TabIndex = 22;
+            this.calendario.Location = new System.Drawing.Point(580, 323);
+            this.calendario.Name = "calendario";
+            this.calendario.Size = new System.Drawing.Size(201, 20);
+            this.calendario.TabIndex = 22;
             // 
             // label5
             // 
@@ -246,12 +256,12 @@
             this.label8.TabIndex = 20;
             this.label8.Text = "Cantidad:";
             // 
-            // textBox2
+            // txtProducto
             // 
-            this.textBox2.Location = new System.Drawing.Point(327, 65);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(234, 20);
-            this.textBox2.TabIndex = 14;
+            this.txtProducto.Location = new System.Drawing.Point(327, 65);
+            this.txtProducto.Name = "txtProducto";
+            this.txtProducto.Size = new System.Drawing.Size(234, 20);
+            this.txtProducto.TabIndex = 14;
             // 
             // label1
             // 
@@ -262,21 +272,21 @@
             this.label1.TabIndex = 13;
             this.label1.Text = "Producto:";
             // 
-            // textBox1
+            // txtCodFisico
             // 
-            this.textBox1.Location = new System.Drawing.Point(327, 109);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(234, 20);
-            this.textBox1.TabIndex = 12;
+            this.txtCodFisico.Location = new System.Drawing.Point(327, 109);
+            this.txtCodFisico.Name = "txtCodFisico";
+            this.txtCodFisico.Size = new System.Drawing.Size(234, 20);
+            this.txtCodFisico.TabIndex = 12;
             // 
-            // button1
+            // btnBuscarArticulo
             // 
-            this.button1.Location = new System.Drawing.Point(620, 83);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnBuscarArticulo.Location = new System.Drawing.Point(620, 83);
+            this.btnBuscarArticulo.Name = "btnBuscarArticulo";
+            this.btnBuscarArticulo.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscarArticulo.TabIndex = 11;
+            this.btnBuscarArticulo.Text = "Buscar";
+            this.btnBuscarArticulo.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -287,26 +297,16 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "Codigo Fisico:";
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(132, 30);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(598, 13);
-            this.label10.TabIndex = 36;
-            this.label10.Text = "Escriba el nombre del producto y/o codigo fisico. Seleccione el articulo correspo" +
-                "ndiente y luego llene los campos a modificar. ";
-            // 
             // Modificar_Articulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(921, 521);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelModificarArticulo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Modificar_Articulo";
             this.Text = "Modificar_Articulo";
-            this.panel1.ResumeLayout(false);
+            this.panelModificarArticulo.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -315,31 +315,31 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelModificarArticulo;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtProducto;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtCodFisico;
+        private System.Windows.Forms.Button btnBuscarArticulo;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.ComboBox comboBoxArticulos;
+        private System.Windows.Forms.TextBox txtFechaIngreso;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtCodFisicoNuevo;
+        private System.Windows.Forms.TextBox txtStockMinimo;
+        private System.Windows.Forms.TextBox txtUnidad;
+        private System.Windows.Forms.TextBox txtCantidad;
+        private System.Windows.Forms.TextBox txtDescripcion;
+        private System.Windows.Forms.TextBox txtProductoNuevo;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker calendario;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Label label10;
     }
 }

@@ -29,15 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Nuevo_Alumno));
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelNuevoAlumno = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnAceptar = new System.Windows.Forms.Button();
+            this.txtCicloLectivo = new System.Windows.Forms.TextBox();
+            this.txtDivision = new System.Windows.Forms.TextBox();
+            this.txtAño = new System.Windows.Forms.TextBox();
+            this.txtApellido = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -45,30 +46,38 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.panelNuevoAlumno.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // panelNuevoAlumno
             // 
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Location = new System.Drawing.Point(1, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(920, 520);
-            this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panelNuevoAlumno.Controls.Add(this.label6);
+            this.panelNuevoAlumno.Controls.Add(this.groupBox1);
+            this.panelNuevoAlumno.Location = new System.Drawing.Point(1, 2);
+            this.panelNuevoAlumno.Name = "panelNuevoAlumno";
+            this.panelNuevoAlumno.Size = new System.Drawing.Size(920, 520);
+            this.panelNuevoAlumno.TabIndex = 0;
+            this.panelNuevoAlumno.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(160, 46);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(263, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Complete los campos con los datos del alumno nuevo.";
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.btnCancelar);
+            this.groupBox1.Controls.Add(this.btnAceptar);
+            this.groupBox1.Controls.Add(this.txtCicloLectivo);
+            this.groupBox1.Controls.Add(this.txtDivision);
+            this.groupBox1.Controls.Add(this.txtAño);
+            this.groupBox1.Controls.Add(this.txtApellido);
+            this.groupBox1.Controls.Add(this.txtNombre);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label5);
@@ -84,58 +93,58 @@
             this.groupBox1.Text = "Ingresar Alumno";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // button2
+            // btnCancelar
             // 
-            this.button2.Location = new System.Drawing.Point(361, 328);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "Cancelar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCancelar.Location = new System.Drawing.Point(361, 328);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 21;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnAceptar
             // 
-            this.button1.Location = new System.Drawing.Point(121, 328);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Aceptar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnAceptar.Location = new System.Drawing.Point(121, 328);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.TabIndex = 20;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
             // 
-            // textBox5
+            // txtCicloLectivo
             // 
-            this.textBox5.Location = new System.Drawing.Point(246, 254);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(66, 20);
-            this.textBox5.TabIndex = 19;
+            this.txtCicloLectivo.Location = new System.Drawing.Point(246, 254);
+            this.txtCicloLectivo.Name = "txtCicloLectivo";
+            this.txtCicloLectivo.Size = new System.Drawing.Size(66, 20);
+            this.txtCicloLectivo.TabIndex = 19;
             // 
-            // textBox4
+            // txtDivision
             // 
-            this.textBox4.Location = new System.Drawing.Point(246, 225);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(66, 20);
-            this.textBox4.TabIndex = 18;
+            this.txtDivision.Location = new System.Drawing.Point(246, 225);
+            this.txtDivision.Name = "txtDivision";
+            this.txtDivision.Size = new System.Drawing.Size(66, 20);
+            this.txtDivision.TabIndex = 18;
             // 
-            // textBox3
+            // txtAño
             // 
-            this.textBox3.Location = new System.Drawing.Point(246, 191);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(66, 20);
-            this.textBox3.TabIndex = 17;
+            this.txtAño.Location = new System.Drawing.Point(246, 191);
+            this.txtAño.Name = "txtAño";
+            this.txtAño.Size = new System.Drawing.Size(66, 20);
+            this.txtAño.TabIndex = 17;
             // 
-            // textBox2
+            // txtApellido
             // 
-            this.textBox2.Location = new System.Drawing.Point(246, 107);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(190, 20);
-            this.textBox2.TabIndex = 16;
+            this.txtApellido.Location = new System.Drawing.Point(246, 107);
+            this.txtApellido.Name = "txtApellido";
+            this.txtApellido.Size = new System.Drawing.Size(190, 20);
+            this.txtApellido.TabIndex = 16;
             // 
-            // textBox1
+            // txtNombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(246, 81);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(190, 20);
-            this.textBox1.TabIndex = 15;
+            this.txtNombre.Location = new System.Drawing.Point(246, 81);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(190, 20);
+            this.txtNombre.TabIndex = 15;
             // 
             // label9
             // 
@@ -200,26 +209,17 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Nombre:";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(160, 46);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(263, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Complete los campos con los datos del alumno nuevo.";
-            // 
             // Nuevo_Alumno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(921, 520);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelNuevoAlumno);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Nuevo_Alumno";
             this.Text = "Nuevo_Alumno";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panelNuevoAlumno.ResumeLayout(false);
+            this.panelNuevoAlumno.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -228,7 +228,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelNuevoAlumno;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
@@ -237,13 +237,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnAceptar;
+        private System.Windows.Forms.TextBox txtCicloLectivo;
+        private System.Windows.Forms.TextBox txtDivision;
+        private System.Windows.Forms.TextBox txtAño;
+        private System.Windows.Forms.TextBox txtApellido;
+        private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label label6;
     }
 }

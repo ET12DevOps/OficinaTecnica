@@ -30,19 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Eliminar_Alumno));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.ListaDeAlumnos = new System.Windows.Forms.ListBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.btnBuscarCurso = new System.Windows.Forms.Button();
+            this.txtCicloLectivo = new System.Windows.Forms.TextBox();
+            this.txtDivision = new System.Windows.Forms.TextBox();
+            this.txtAño = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -56,19 +56,29 @@
             this.panel1.Size = new System.Drawing.Size(919, 518);
             this.panel1.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(214, 44);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(461, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Complete los campos correspondientes para buscar los alumnos y selecione el que c" +
+                "orresponda.";
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.ListaDeAlumnos);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.btnBuscarCurso);
+            this.groupBox1.Controls.Add(this.txtCicloLectivo);
+            this.groupBox1.Controls.Add(this.txtDivision);
+            this.groupBox1.Controls.Add(this.txtAño);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btnCancelar);
+            this.groupBox1.Controls.Add(this.btnEliminar);
             this.groupBox1.Location = new System.Drawing.Point(99, 84);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(695, 383);
@@ -85,35 +95,35 @@
             this.ListaDeAlumnos.Size = new System.Drawing.Size(315, 134);
             this.ListaDeAlumnos.TabIndex = 30;
             // 
-            // button3
+            // btnBuscarCurso
             // 
-            this.button3.Location = new System.Drawing.Point(428, 125);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 20);
-            this.button3.TabIndex = 29;
-            this.button3.Text = "Buscar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnBuscarCurso.Location = new System.Drawing.Point(428, 125);
+            this.btnBuscarCurso.Name = "btnBuscarCurso";
+            this.btnBuscarCurso.Size = new System.Drawing.Size(75, 20);
+            this.btnBuscarCurso.TabIndex = 29;
+            this.btnBuscarCurso.Text = "Buscar";
+            this.btnBuscarCurso.UseVisualStyleBackColor = true;
             // 
-            // textBox5
+            // txtCicloLectivo
             // 
-            this.textBox5.Location = new System.Drawing.Point(313, 125);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(66, 20);
-            this.textBox5.TabIndex = 28;
+            this.txtCicloLectivo.Location = new System.Drawing.Point(313, 125);
+            this.txtCicloLectivo.Name = "txtCicloLectivo";
+            this.txtCicloLectivo.Size = new System.Drawing.Size(66, 20);
+            this.txtCicloLectivo.TabIndex = 28;
             // 
-            // textBox4
+            // txtDivision
             // 
-            this.textBox4.Location = new System.Drawing.Point(313, 96);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(66, 20);
-            this.textBox4.TabIndex = 27;
+            this.txtDivision.Location = new System.Drawing.Point(313, 96);
+            this.txtDivision.Name = "txtDivision";
+            this.txtDivision.Size = new System.Drawing.Size(66, 20);
+            this.txtDivision.TabIndex = 27;
             // 
-            // textBox3
+            // txtAño
             // 
-            this.textBox3.Location = new System.Drawing.Point(313, 62);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(66, 20);
-            this.textBox3.TabIndex = 26;
+            this.txtAño.Location = new System.Drawing.Point(313, 62);
+            this.txtAño.Name = "txtAño";
+            this.txtAño.Size = new System.Drawing.Size(66, 20);
+            this.txtAño.TabIndex = 26;
             // 
             // label9
             // 
@@ -151,33 +161,23 @@
             this.label3.TabIndex = 22;
             this.label3.Text = "Año:";
             // 
-            // button2
+            // btnCancelar
             // 
-            this.button2.Location = new System.Drawing.Point(428, 340);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 21;
-            this.button2.Text = "Cancelar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnCancelar.Location = new System.Drawing.Point(428, 340);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 21;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnEliminar
             // 
-            this.button1.Location = new System.Drawing.Point(188, 340);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 20;
-            this.button1.Text = "Eliminar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(214, 44);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(461, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Complete los campos correspondientes para buscar los alumnos y selecione el que c" +
-                "orresponda.";
+            this.btnEliminar.Location = new System.Drawing.Point(188, 340);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 20;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // Eliminar_Alumno
             // 
@@ -200,13 +200,13 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.ListBox ListaDeAlumnos;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button btnBuscarCurso;
+        private System.Windows.Forms.TextBox txtCicloLectivo;
+        private System.Windows.Forms.TextBox txtDivision;
+        private System.Windows.Forms.TextBox txtAño;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;

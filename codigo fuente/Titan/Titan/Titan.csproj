@@ -148,6 +148,12 @@
     <Compile Include="Oficina Tecnica\Modificar\Modificar_Proveedor.Designer.cs">
       <DependentUpon>Modificar_Proveedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Oficina Tecnica\Modulo\Sistema de Gestion Materiales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oficina Tecnica\Modulo\Sistema de Gestion Materiales.Designer.cs">
+      <DependentUpon>Sistema de Gestion Materiales.cs</DependentUpon>
+    </Compile>
     <Compile Include="Oficina Tecnica\Nuevo\Nuevo_Alumno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -225,6 +231,9 @@
     <EmbeddedResource Include="Oficina Tecnica\Modificar\Modificar_Proveedor.resx">
       <DependentUpon>Modificar_Proveedor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Oficina Tecnica\Modulo\Sistema de Gestion Materiales.resx">
+      <DependentUpon>Sistema de Gestion Materiales.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Oficina Tecnica\Nuevo\Nuevo_Alumno.resx">
       <DependentUpon>Nuevo_Alumno.cs</DependentUpon>
     </EmbeddedResource>
@@ -257,6 +266,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -20,31 +20,3 @@ D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Lo
 D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Menu_Principal.resources
 D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Properties.Resources.resources
 D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.csproj.GenerateResource.Cache
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\bin\Debug\Titan.exe
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\bin\Debug\Titan.pdb
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Consultar.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Eliminar_Articulo.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Modificar_Articulo.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Modificar_Retiro.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Nuevo_Articulo.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Nuevo_Retiro.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.EntDep_Proyecto_Nuevo.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Login.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Menu_Principal.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Eliminar_Alumno.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Eliminar_Personal.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Eliminar_Profesor.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Eliminar_Proveedor.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Modificar.Modificar_Alumno.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Modificar.Modificar_Personal.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Modificar.Modificar_Profesor.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Modificar.Modificar_Proveedor.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Nuevo_Alumno.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Nuevo_Personal.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Nuevo_Profesor.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Nuevo_Proveedor.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Properties.Resources.resources
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.csproj.GenerateResource.Cache
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.exe
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.pdb
-D:\Practica Profecionalizantes\oficinatecnica\codigo fuente\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.csprojResolveAssemblyReference.cache

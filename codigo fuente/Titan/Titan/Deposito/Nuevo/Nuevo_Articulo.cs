@@ -23,7 +23,7 @@ namespace Titan.Deposito
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.panel1.Controls.Clear();
+            this.panelNuevoArticulo.Controls.Clear();
         }
     }
 }

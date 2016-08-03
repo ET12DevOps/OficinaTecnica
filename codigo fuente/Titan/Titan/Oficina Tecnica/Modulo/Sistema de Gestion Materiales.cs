@@ -7,18 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Titan.Deposito
+namespace Titan.Oficina_Tecnica.Modulo
 {
-    public partial class Consultar : Form
+    public partial class Sistema_de_Gestion_Materiales : Form
     {
-        public Consultar()
+        public Sistema_de_Gestion_Materiales()
         {
             InitializeComponent();
         }
 
-        private void Consultar_Load(object sender, EventArgs e)
+        private void btnCancelar_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

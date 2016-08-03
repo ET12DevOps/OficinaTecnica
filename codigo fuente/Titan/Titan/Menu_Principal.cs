@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using Titan.Deposito;
 using Titan.Oficina_Tecnica;
 using Titan.Oficina_Tecnica.Modificar;
+using Titan.Oficina_Tecnica.Modulo;
 
 namespace Titan
 {
@@ -74,7 +75,7 @@ namespace Titan
             this.panelMenuPrincipal.Controls.Clear();
             Nuevo_Articulo frmNuevoArticulo = new Nuevo_Articulo();
             //frmNuevoArticulo.Show();
-            this.panelMenuPrincipal.Controls.Add(frmNuevoArticulo.panel1);
+            this.panelMenuPrincipal.Controls.Add(frmNuevoArticulo.panelNuevoArticulo);
             this.Refresh();
 
         }
@@ -196,6 +197,12 @@ namespace Titan
         private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void sistemaDeGestionDeMaterialesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sistema_de_Gestion_Materiales frmSistemaGestionMateriales = new Sistema_de_Gestion_Materiales();
+            frmSistemaGestionMateriales.Show();
         }
     }
 }

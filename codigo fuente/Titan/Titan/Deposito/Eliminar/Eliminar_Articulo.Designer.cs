@@ -29,50 +29,50 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Eliminar_Articulo));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panelEliminarArticulo = new System.Windows.Forms.Panel();
+            this.groupBoxEliminarArticulo = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtProducto = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.txtCodFisico = new System.Windows.Forms.TextBox();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.listBoxResultado = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.panelEliminarArticulo.SuspendLayout();
+            this.groupBoxEliminarArticulo.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // panelEliminarArticulo
             // 
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Controls.Add(this.statusStrip1);
-            this.panel1.Location = new System.Drawing.Point(2, 1);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(918, 517);
-            this.panel1.TabIndex = 0;
+            this.panelEliminarArticulo.Controls.Add(this.groupBoxEliminarArticulo);
+            this.panelEliminarArticulo.Controls.Add(this.statusStrip1);
+            this.panelEliminarArticulo.Location = new System.Drawing.Point(2, 1);
+            this.panelEliminarArticulo.Name = "panelEliminarArticulo";
+            this.panelEliminarArticulo.Size = new System.Drawing.Size(918, 517);
+            this.panelEliminarArticulo.TabIndex = 0;
             // 
-            // groupBox1
+            // groupBoxEliminarArticulo
             // 
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.listBox1);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(31, 18);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(855, 455);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Eliminar Articulo";
+            this.groupBoxEliminarArticulo.Controls.Add(this.label3);
+            this.groupBoxEliminarArticulo.Controls.Add(this.txtProducto);
+            this.groupBoxEliminarArticulo.Controls.Add(this.label1);
+            this.groupBoxEliminarArticulo.Controls.Add(this.btnCancelar);
+            this.groupBoxEliminarArticulo.Controls.Add(this.btnEliminar);
+            this.groupBoxEliminarArticulo.Controls.Add(this.txtCodFisico);
+            this.groupBoxEliminarArticulo.Controls.Add(this.btnBuscar);
+            this.groupBoxEliminarArticulo.Controls.Add(this.listBoxResultado);
+            this.groupBoxEliminarArticulo.Controls.Add(this.label2);
+            this.groupBoxEliminarArticulo.Location = new System.Drawing.Point(31, 18);
+            this.groupBoxEliminarArticulo.Name = "groupBoxEliminarArticulo";
+            this.groupBoxEliminarArticulo.Size = new System.Drawing.Size(855, 455);
+            this.groupBoxEliminarArticulo.TabIndex = 1;
+            this.groupBoxEliminarArticulo.TabStop = false;
+            this.groupBoxEliminarArticulo.Text = "Eliminar Articulo";
             // 
             // label3
             // 
@@ -84,12 +84,12 @@
             this.label3.Text = "Escriba el nombre y/o codigo fisico del articulo a eliminar. Despues seleccione e" +
                 "n la lista según corresponda.";
             // 
-            // textBox2
+            // txtProducto
             // 
-            this.textBox2.Location = new System.Drawing.Point(300, 92);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(234, 20);
-            this.textBox2.TabIndex = 9;
+            this.txtProducto.Location = new System.Drawing.Point(300, 92);
+            this.txtProducto.Name = "txtProducto";
+            this.txtProducto.Size = new System.Drawing.Size(234, 20);
+            this.txtProducto.TabIndex = 9;
             // 
             // label1
             // 
@@ -100,47 +100,47 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "Producto:";
             // 
-            // button3
+            // btnCancelar
             // 
-            this.button3.Location = new System.Drawing.Point(593, 402);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Cancelar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCancelar.Location = new System.Drawing.Point(593, 402);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 6;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnEliminar
             // 
-            this.button2.Location = new System.Drawing.Point(190, 402);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Eliminar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnEliminar.Location = new System.Drawing.Point(190, 402);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.TabIndex = 5;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtCodFisico
             // 
-            this.textBox1.Location = new System.Drawing.Point(300, 136);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(234, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtCodFisico.Location = new System.Drawing.Point(300, 136);
+            this.txtCodFisico.Name = "txtCodFisico";
+            this.txtCodFisico.Size = new System.Drawing.Size(234, 20);
+            this.txtCodFisico.TabIndex = 4;
             // 
-            // button1
+            // btnBuscar
             // 
-            this.button1.Location = new System.Drawing.Point(593, 110);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnBuscar.Location = new System.Drawing.Point(593, 110);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.TabIndex = 3;
+            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // listBoxResultado
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(190, 192);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(478, 173);
-            this.listBox1.TabIndex = 2;
+            this.listBoxResultado.FormattingEnabled = true;
+            this.listBoxResultado.Location = new System.Drawing.Point(190, 192);
+            this.listBoxResultado.Name = "listBoxResultado";
+            this.listBoxResultado.Size = new System.Drawing.Size(478, 173);
+            this.listBoxResultado.TabIndex = 2;
             // 
             // label2
             // 
@@ -173,14 +173,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(921, 520);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelEliminarArticulo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Eliminar_Articulo";
             this.Text = "Eliminar_Articulo";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.panelEliminarArticulo.ResumeLayout(false);
+            this.panelEliminarArticulo.PerformLayout();
+            this.groupBoxEliminarArticulo.ResumeLayout(false);
+            this.groupBoxEliminarArticulo.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -189,17 +189,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelEliminarArticulo;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBoxEliminarArticulo;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtCodFisico;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.ListBox listBoxResultado;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.TextBox txtProducto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
     }

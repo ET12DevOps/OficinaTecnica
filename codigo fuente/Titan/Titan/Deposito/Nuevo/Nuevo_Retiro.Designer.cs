@@ -29,29 +29,29 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Nuevo_Retiro));
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelNuevoRetiro = new System.Windows.Forms.Panel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtNumRetiro = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.btnCancelar = new System.Windows.Forms.Button();
+            this.btnAceptar = new System.Windows.Forms.Button();
+            this.btnBuscarAlumnos = new System.Windows.Forms.Button();
+            this.divisionDeCurso = new System.Windows.Forms.NumericUpDown();
+            this.añoDeCurso = new System.Windows.Forms.NumericUpDown();
+            this.comboBoxAlumnos = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.calendario = new System.Windows.Forms.DateTimePicker();
+            this.txtFechaHora = new System.Windows.Forms.TextBox();
+            this.txtCantidad = new System.Windows.Forms.TextBox();
+            this.txtUnidad = new System.Windows.Forms.TextBox();
+            this.txtProducto = new System.Windows.Forms.TextBox();
+            this.comboBoxProfesores = new System.Windows.Forms.ComboBox();
+            this.comboBoxEncargadosDeposito = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -60,21 +60,21 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.panelNuevoRetiro.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.divisionDeCurso)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.añoDeCurso)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // panelNuevoRetiro
             // 
-            this.panel1.Controls.Add(this.statusStrip1);
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Location = new System.Drawing.Point(1, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(917, 517);
-            this.panel1.TabIndex = 0;
+            this.panelNuevoRetiro.Controls.Add(this.statusStrip1);
+            this.panelNuevoRetiro.Controls.Add(this.groupBox1);
+            this.panelNuevoRetiro.Location = new System.Drawing.Point(1, 2);
+            this.panelNuevoRetiro.Name = "panelNuevoRetiro";
+            this.panelNuevoRetiro.Size = new System.Drawing.Size(917, 517);
+            this.panelNuevoRetiro.TabIndex = 0;
             // 
             // statusStrip1
             // 
@@ -96,23 +96,23 @@
             // 
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.txtNumRetiro);
             this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.numericUpDown2);
-            this.groupBox1.Controls.Add(this.numericUpDown1);
-            this.groupBox1.Controls.Add(this.comboBox3);
+            this.groupBox1.Controls.Add(this.btnCancelar);
+            this.groupBox1.Controls.Add(this.btnAceptar);
+            this.groupBox1.Controls.Add(this.btnBuscarAlumnos);
+            this.groupBox1.Controls.Add(this.divisionDeCurso);
+            this.groupBox1.Controls.Add(this.añoDeCurso);
+            this.groupBox1.Controls.Add(this.comboBoxAlumnos);
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.comboBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.calendario);
+            this.groupBox1.Controls.Add(this.txtFechaHora);
+            this.groupBox1.Controls.Add(this.txtCantidad);
+            this.groupBox1.Controls.Add(this.txtUnidad);
+            this.groupBox1.Controls.Add(this.txtProducto);
+            this.groupBox1.Controls.Add(this.comboBoxProfesores);
+            this.groupBox1.Controls.Add(this.comboBoxEncargadosDeposito);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label6);
@@ -145,12 +145,12 @@
             this.label12.Size = new System.Drawing.Size(0, 13);
             this.label12.TabIndex = 33;
             // 
-            // textBox5
+            // txtNumRetiro
             // 
-            this.textBox5.Location = new System.Drawing.Point(252, 78);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(242, 20);
-            this.textBox5.TabIndex = 32;
+            this.txtNumRetiro.Location = new System.Drawing.Point(252, 78);
+            this.txtNumRetiro.Name = "txtNumRetiro";
+            this.txtNumRetiro.Size = new System.Drawing.Size(242, 20);
+            this.txtNumRetiro.TabIndex = 32;
             // 
             // label11
             // 
@@ -161,54 +161,54 @@
             this.label11.TabIndex = 31;
             this.label11.Text = "Retiro Numero:";
             // 
-            // button3
+            // btnCancelar
             // 
-            this.button3.Location = new System.Drawing.Point(522, 418);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 30;
-            this.button3.Text = "Cancelar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCancelar.Location = new System.Drawing.Point(522, 418);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 30;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnAceptar
             // 
-            this.button2.Location = new System.Drawing.Point(206, 418);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 29;
-            this.button2.Text = "Aceptar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnAceptar.Location = new System.Drawing.Point(206, 418);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.TabIndex = 29;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnBuscarAlumnos
             // 
-            this.button1.Location = new System.Drawing.Point(522, 171);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnBuscarAlumnos.Location = new System.Drawing.Point(522, 171);
+            this.btnBuscarAlumnos.Name = "btnBuscarAlumnos";
+            this.btnBuscarAlumnos.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscarAlumnos.TabIndex = 28;
+            this.btnBuscarAlumnos.Text = "Buscar";
+            this.btnBuscarAlumnos.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown2
+            // divisionDeCurso
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(429, 174);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(61, 20);
-            this.numericUpDown2.TabIndex = 27;
+            this.divisionDeCurso.Location = new System.Drawing.Point(429, 174);
+            this.divisionDeCurso.Name = "divisionDeCurso";
+            this.divisionDeCurso.Size = new System.Drawing.Size(61, 20);
+            this.divisionDeCurso.TabIndex = 27;
             // 
-            // numericUpDown1
+            // añoDeCurso
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(287, 174);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(61, 20);
-            this.numericUpDown1.TabIndex = 26;
+            this.añoDeCurso.Location = new System.Drawing.Point(287, 174);
+            this.añoDeCurso.Name = "añoDeCurso";
+            this.añoDeCurso.Size = new System.Drawing.Size(61, 20);
+            this.añoDeCurso.TabIndex = 26;
             // 
-            // comboBox3
+            // comboBoxAlumnos
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(252, 212);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(345, 21);
-            this.comboBox3.TabIndex = 25;
+            this.comboBoxAlumnos.FormattingEnabled = true;
+            this.comboBoxAlumnos.Location = new System.Drawing.Point(252, 212);
+            this.comboBoxAlumnos.Name = "comboBoxAlumnos";
+            this.comboBoxAlumnos.Size = new System.Drawing.Size(345, 21);
+            this.comboBoxAlumnos.TabIndex = 25;
             // 
             // label10
             // 
@@ -228,56 +228,56 @@
             this.label9.TabIndex = 23;
             this.label9.Text = "Año:";
             // 
-            // dateTimePicker1
+            // calendario
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(582, 357);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 22;
+            this.calendario.Location = new System.Drawing.Point(582, 357);
+            this.calendario.Name = "calendario";
+            this.calendario.Size = new System.Drawing.Size(200, 20);
+            this.calendario.TabIndex = 22;
             // 
-            // textBox4
+            // txtFechaHora
             // 
-            this.textBox4.Location = new System.Drawing.Point(252, 357);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(242, 20);
-            this.textBox4.TabIndex = 21;
+            this.txtFechaHora.Location = new System.Drawing.Point(252, 357);
+            this.txtFechaHora.Name = "txtFechaHora";
+            this.txtFechaHora.Size = new System.Drawing.Size(242, 20);
+            this.txtFechaHora.TabIndex = 21;
             // 
-            // textBox3
+            // txtCantidad
             // 
-            this.textBox3.Location = new System.Drawing.Point(252, 320);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(242, 20);
-            this.textBox3.TabIndex = 20;
+            this.txtCantidad.Location = new System.Drawing.Point(252, 320);
+            this.txtCantidad.Name = "txtCantidad";
+            this.txtCantidad.Size = new System.Drawing.Size(242, 20);
+            this.txtCantidad.TabIndex = 20;
             // 
-            // textBox2
+            // txtUnidad
             // 
-            this.textBox2.Location = new System.Drawing.Point(252, 283);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(242, 20);
-            this.textBox2.TabIndex = 19;
+            this.txtUnidad.Location = new System.Drawing.Point(252, 283);
+            this.txtUnidad.Name = "txtUnidad";
+            this.txtUnidad.Size = new System.Drawing.Size(242, 20);
+            this.txtUnidad.TabIndex = 19;
             // 
-            // textBox1
+            // txtProducto
             // 
-            this.textBox1.Location = new System.Drawing.Point(252, 246);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(242, 20);
-            this.textBox1.TabIndex = 18;
+            this.txtProducto.Location = new System.Drawing.Point(252, 246);
+            this.txtProducto.Name = "txtProducto";
+            this.txtProducto.Size = new System.Drawing.Size(242, 20);
+            this.txtProducto.TabIndex = 18;
             // 
-            // comboBox2
+            // comboBoxProfesores
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(252, 143);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(242, 21);
-            this.comboBox2.TabIndex = 16;
+            this.comboBoxProfesores.FormattingEnabled = true;
+            this.comboBoxProfesores.Location = new System.Drawing.Point(252, 143);
+            this.comboBoxProfesores.Name = "comboBoxProfesores";
+            this.comboBoxProfesores.Size = new System.Drawing.Size(242, 21);
+            this.comboBoxProfesores.TabIndex = 16;
             // 
-            // comboBox1
+            // comboBoxEncargadosDeposito
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(252, 106);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(242, 21);
-            this.comboBox1.TabIndex = 15;
+            this.comboBoxEncargadosDeposito.FormattingEnabled = true;
+            this.comboBoxEncargadosDeposito.Location = new System.Drawing.Point(252, 106);
+            this.comboBoxEncargadosDeposito.Name = "comboBoxEncargadosDeposito";
+            this.comboBoxEncargadosDeposito.Size = new System.Drawing.Size(242, 21);
+            this.comboBoxEncargadosDeposito.TabIndex = 15;
             // 
             // label8
             // 
@@ -357,25 +357,25 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(921, 520);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelNuevoRetiro);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Nuevo_Retiro";
             this.Text = "Nuevo_Retiro";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panelNuevoRetiro.ResumeLayout(false);
+            this.panelNuevoRetiro.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.divisionDeCurso)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.añoDeCurso)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelNuevoRetiro;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -388,21 +388,21 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.DateTimePicker calendario;
+        private System.Windows.Forms.TextBox txtFechaHora;
+        private System.Windows.Forms.TextBox txtCantidad;
+        private System.Windows.Forms.TextBox txtUnidad;
+        private System.Windows.Forms.TextBox txtProducto;
+        private System.Windows.Forms.ComboBox comboBoxProfesores;
+        private System.Windows.Forms.ComboBox comboBoxEncargadosDeposito;
+        private System.Windows.Forms.NumericUpDown divisionDeCurso;
+        private System.Windows.Forms.NumericUpDown añoDeCurso;
+        private System.Windows.Forms.ComboBox comboBoxAlumnos;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button btnBuscarAlumnos;
+        private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.Button btnAceptar;
+        private System.Windows.Forms.TextBox txtNumRetiro;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
