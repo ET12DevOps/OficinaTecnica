@@ -20,3 +20,31 @@ D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Lo
 D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Menu_Principal.resources
 D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.Properties.Resources.resources
 D:\Nueva carpeta\Diseño para Oficina Tecnica\Titan\Titan\obj\x86\Debug\Titan.csproj.GenerateResource.Cache
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\bin\Debug\Titan.exe
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\bin\Debug\Titan.pdb
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Consultar.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Eliminar_Articulo.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Modificar_Articulo.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Modificar_Retiro.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Nuevo_Articulo.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Deposito.Nuevo_Retiro.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.EntDep_Proyecto_Nuevo.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Login.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Menu_Principal.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Eliminar_Alumno.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Eliminar_Personal.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Eliminar_Profesor.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Eliminar_Proveedor.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Modificar.Modificar_Alumno.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Modificar.Modificar_Personal.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Modificar.Modificar_Profesor.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Modificar.Modificar_Proveedor.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Modulo.Sistema_de_Gestion_Materiales.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Nuevo_Alumno.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Nuevo_Personal.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Nuevo_Profesor.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Oficina_Tecnica.Nuevo_Proveedor.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.Properties.Resources.resources
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.csproj.GenerateResource.Cache
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.exe
+C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.pdb
