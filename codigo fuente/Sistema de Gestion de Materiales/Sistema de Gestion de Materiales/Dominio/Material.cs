@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using MySql.Data;
 using MySql.Data.MySqlClient;
-using Sistema_de_Gestion_de_Materiales.Database;
+using MysqlConnector;
 using System.Windows.Forms;
 
 namespace Sistema_de_Gestion_de_Materiales.Dominio
@@ -59,11 +59,11 @@ namespace Sistema_de_Gestion_de_Materiales.Dominio
             DescripcionCorta = descripCorta;
             Unidad = unidad;
 
-            Parametros.Add(new Parametro("CodigoInterno", CodigoInterno));
-            Parametros.Add(new Parametro("CodigoBarra", codBarra));
-            Parametros.Add(new Parametro("DescripcionLarga", DescripcionLargar));
-            Parametros.Add(new Parametro("DescripcionCorta", DescripcionCorta));
-            Parametros.Add(new Parametro("Unidad", Unidad));
+            Parametros.Add(new Parametro("unCodigoInterno", CodigoInterno));
+            Parametros.Add(new Parametro("unCodigoBarras", codBarra));
+            Parametros.Add(new Parametro("unaDescripcionLarga", DescripcionLargar));
+            Parametros.Add(new Parametro("unaDescripcionCorta", DescripcionCorta));
+            Parametros.Add(new Parametro("unaUnidad", Unidad));
 
             Tipo = "Material";
         }
@@ -82,7 +82,7 @@ namespace Sistema_de_Gestion_de_Materiales.Dominio
         private static List<Material> Query(string query, List<Material> materiales)
         {
             MySqlDataReader myReader = null;
-            MyReaderSqlConnection connectionLive = databaseMySqlConnection();
+            MySqlConnection connectionLive = databaseMySqlConnection();
             MySqlCommand command = new MySqlCommand(query, connectionLive);
 
             try

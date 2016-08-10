@@ -48,3 +48,5 @@ C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x
 C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.csproj.GenerateResource.Cache
 C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.exe
 C:\Users\Agustin\Documents\GitHub\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.pdb
+D:\Proyecto Oficina Tecnica\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.exe
+D:\Proyecto Oficina Tecnica\oficinatecnica\codigo fuente\Titan\Titan\obj\x86\Debug\Titan.pdb

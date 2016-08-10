@@ -34,8 +34,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MysqlConnector">
+      <HintPath>..\..\MysqlConnector.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,13 +55,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Database\IObjeto.cs" />
-    <Compile Include="Database\Parametro.cs" />
     <Compile Include="Dominio\Material.cs" />
-    <Compile Include="Material\Nuevo Material.cs">
+    <Compile Include="frmMaterial\Modificar Material.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Material\Nuevo Material.Designer.cs">
+    <Compile Include="frmMaterial\Modificar Material.Designer.cs">
+      <DependentUpon>Modificar Material.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaterial\Nuevo Material.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaterial\Nuevo Material.Designer.cs">
       <DependentUpon>Nuevo Material.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu_Principal.cs">
@@ -61,10 +74,12 @@
     <Compile Include="Menu_Principal.Designer.cs">
       <DependentUpon>Menu_Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Database\Objeto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Material\Nuevo Material.resx">
+    <EmbeddedResource Include="frmMaterial\Modificar Material.resx">
+      <DependentUpon>Modificar Material.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaterial\Nuevo Material.resx">
       <DependentUpon>Nuevo Material.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_Principal.resx">
@@ -88,6 +103,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Datos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

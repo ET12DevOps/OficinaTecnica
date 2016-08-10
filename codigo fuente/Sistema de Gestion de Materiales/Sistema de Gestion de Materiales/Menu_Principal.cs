@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using Sistema_de_Gestion_de_Materiales.Material;
+using Sistema_de_Gestion_de_Materiales.frmMaterial;
 
 namespace Sistema_de_Gestion_de_Materiales
 {
@@ -26,6 +26,11 @@ namespace Sistema_de_Gestion_de_Materiales
         {
             Nuevo_Material frmNuevo_Material = new Nuevo_Material();
             frmNuevo_Material.Show();
+        }
+
+        private void materialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

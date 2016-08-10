@@ -1,4 +1,4 @@
-﻿namespace Sistema_de_Gestion_de_Materiales.Material
+﻿namespace Sistema_de_Gestion_de_Materiales.frmMaterial
 {
     partial class Nuevo_Material
     {
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.pnlNuevoMaterial = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
@@ -43,7 +44,6 @@
             this.lblDescripcionLarga = new System.Windows.Forms.Label();
             this.lblCodigoBarras = new System.Windows.Forms.Label();
             this.lblCodigoInterno = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pnlNuevoMaterial.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,6 +70,14 @@
             this.pnlNuevoMaterial.TabIndex = 3;
             this.pnlNuevoMaterial.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelSisGestMateriales_Paint);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(473, 457);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(110, 21);
+            this.comboBox1.TabIndex = 14;
+            // 
             // btnLimpiar
             // 
             this.btnLimpiar.Location = new System.Drawing.Point(952, 455);
@@ -88,6 +96,7 @@
             this.btnCancelar.TabIndex = 12;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // btnAceptar
             // 
@@ -97,6 +106,7 @@
             this.btnAceptar.TabIndex = 11;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnEscanear
             // 
@@ -187,14 +197,6 @@
             this.lblCodigoInterno.Size = new System.Drawing.Size(79, 13);
             this.lblCodigoInterno.TabIndex = 0;
             this.lblCodigoInterno.Text = "Código Interno:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(473, 457);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(110, 21);
-            this.comboBox1.TabIndex = 14;
             // 
             // Nuevo_Material
             // 
